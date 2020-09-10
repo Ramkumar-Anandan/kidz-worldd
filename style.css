@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+nav {
+    background-color: white;
+    height: 50px;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+nav img {
+    height: 30px;
+}
+
+#cart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+
+header {
+    background-image: url("http://i1.faceprep.in/prograd-junior/kw-background.png");
+    background-size: 100% 100%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    padding: 0% 5%;
+
+}
+
+.section-container {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+.item-container {
+    margin: 5% 0%;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #6095FF;
+    color: white;
+    /* width: 60px;
+    height: 35px; */
+    border-radius: 4px;
+    padding: 7px;
+}
+
+/* .button:checked {
+    background-color: honeydew;
+} */
+
+.button>img {
+    width: 20px;
+}
+
+.books {
+    max-width: 200px;
+}
+
+.games,
+.crafts {
+    max-width: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2%; */
+
+
+}
+
+.buy {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    height: 300px;
+    background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+
+}
+
+footer img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    align-content: flex-end;
+}
+
+h4 {
+
+    color: grey;
+    font-weight: lighter;
+}
+
+h6 {
+    font-size: 17px;
+}
+
+.buy p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#checkout {
+    /* position: fixed; */
+    display: none;
+    padding: 5%;
+    position: absolute;
+    margin: 25%;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+table img {
+    height: 150px;
+}
+
+table,
+td {
+    padding: 30px;
+
+}
+
+/* td {
+    padding: 10px;
+    width: 500px;
+} */
+
+.quantity {
+    display: flex;
+    padding: 5px;
+}
+
+.quantity>img,
+span {
+    height: 20px;
+    padding: 3px;
+}
+
+#book1,
+#book2,
+#book3,
+#book4,
+#book5,
+#book6,
+#game1,
+#game2,
+#game3,
+#game4,
+#game5,
+#game6,
+#craft1,
+#craft2,
+#craft3,
+#craft4 {
+    display: none;
+}
+
+#remove-button {
+
+    background-color: red;
+    padding: 7px;
+    border-radius: 4px;
+    color: white;
+}
+
+#button1 {
+    display: inherit;
+}
+
+.cart-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-button {
+    background-color: #6095FF;
+    padding: 7px;
+    border-radius: 4px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
